@@ -5,7 +5,6 @@ This repository contains ancillary data/notebook routines to support a demo of P
 Briefly, within this repo the file `formatted_trivia_questions.csv` contains sample trivia questions of the format:
 
 ```
-json
 {
     "Question": "Which team beat American Samoa 31-0 in a qualifying match for the 2002 World Cup, but still failed to qualify?", 
     "Answer": "Australia", 
@@ -17,6 +16,7 @@ json
 ```
 
 The questions in this dataset were captured from the open-source [TriviaQA Dataset](https://nlp.cs.washington.edu/triviaqa/index.html)
+
 ```[Mandar Joshi, Eunsol Choi, Daniel Weld, Luke Zettlemoyer. TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension
 In Association for Computational Linguistics (ACL) 2017, Vancouver, Canada.](https://arxiv.org/abs/1705.03551)```
 
