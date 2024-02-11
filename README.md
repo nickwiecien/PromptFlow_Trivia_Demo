@@ -17,8 +17,10 @@ Briefly, within this repo the file `formatted_trivia_questions.csv` contains sam
 
 The questions in this dataset were captured from the open-source [TriviaQA Dataset](https://nlp.cs.washington.edu/triviaqa/index.html)
 
-```[Mandar Joshi, Eunsol Choi, Daniel Weld, Luke Zettlemoyer. TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension
-In Association for Computational Linguistics (ACL) 2017, Vancouver, Canada.](https://arxiv.org/abs/1705.03551)```
+```
+[Mandar Joshi, Eunsol Choi, Daniel Weld, Luke Zettlemoyer. TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension
+In Association for Computational Linguistics ACL 2017, Vancouver, Canada.](https://arxiv.org/abs/1705.03551)
+```
 
 Here, we have selected a sample of ~9,500 trivia question/answer pairs, and generated background articles (using `gpt-35-turbo`) to support answering via a retrieval augmented generation process. Moreover, we have generated embeddings for all 'Background Content' using the `text-embedding-ada-002` model from Azure OpenAI to enable creation of a vector index.
 
