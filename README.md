@@ -32,4 +32,3 @@ To run the notebooks within this repository, create a `.env` file with the follo
 | SEARCH_KEY           | Key for an Azure AI Search resource              |
 | SEARCH_ENDPOINT      | URL endpoint for your Azure AI Search resource   |
 | SEARCH_SERVICE_NAME  | Name of your Azure AI Search resource            |
-|----------------------|--------------------------------------------------|
