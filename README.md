@@ -24,3 +24,12 @@ In Association for Computational Linguistics ACL 2017, Vancouver, Canada.](https
 Here, we have selected a sample of ~9,500 trivia question/answer pairs, and generated background articles (using `gpt-35-turbo`) to support answering via a retrieval augmented generation process. Moreover, we have generated embeddings for all 'Background Content' using the `text-embedding-ada-002` model from Azure OpenAI to enable creation of a vector index.
 
 The notebook at `ai_search_index_operations.ipynb` contains sample code to create a populate an Azure AI Search index.
+
+To run the notebooks within this repository, create a `.env` file with the following key-value pairs:
+
+| Key                  | Value                                            |
+|----------------------|--------------------------------------------------|
+| SEARCH_KEY           | Key for an Azure AI Search resource              |
+| SEARCH_ENDPOINT      | URL endpoint for your Azure AI Search resource   |
+| SEARCH_SERVICE_NAME  | Name of your Azure AI Search resource            |
+|----------------------|--------------------------------------------------|
